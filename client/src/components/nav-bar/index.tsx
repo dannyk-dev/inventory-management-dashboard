@@ -1,5 +1,5 @@
 import React from "react";
-import MenuButton from "./MenuButton";
+import MenuButton from "./menu-button";
 import NavActions from "./nav-actions";
 import NavSearch from "./nav-search";
 

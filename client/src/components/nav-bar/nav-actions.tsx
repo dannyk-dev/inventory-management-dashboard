@@ -3,6 +3,7 @@ import ThemeSwitcher from "./theme-switcher";
 import NotificationButton from "./notification-button";
 import Link from "next/link";
 import { Settings } from "lucide-react";
+import { appPaths } from "@/utils/paths";
 
 type Props = {};
 
@@ -18,7 +19,7 @@ const NavActions = (props: Props) => {
         <div className="w-9 h-9">img</div>
         <span className="font-semibold">John Doe</span>
       </div>
-      <Link href={"/settings"}>
+      <Link href={appPaths.dashboard.settings}>
         <Settings className="cursor-pointer text-gray-500" size={24} />
       </Link>
     </div>
